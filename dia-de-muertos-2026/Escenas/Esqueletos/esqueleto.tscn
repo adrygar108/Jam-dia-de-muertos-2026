@@ -1,0 +1,224 @@
+[gd_scene format=3 uid="uid://7sscvmsv4tbg"]
+
+[ext_resource type="Texture2D" uid="uid://c8uul62vf7rlw" path="res://Escenas/Esqueletos/gBot_pieces.png" id="1_v7yv7"]
+
+[node name="Esqueleto" type="CharacterBody2D" unique_id=249832769]
+
+[node name="Polygons" type="Node2D" parent="." unique_id=2078132473]
+
+[node name="BrazoIzquierdo" type="Polygon2D" parent="Polygons" unique_id=135741472]
+texture = ExtResource("1_v7yv7")
+skeleton = NodePath("../../Skeleton2D2")
+polygon = PackedVector2Array(168.62172, 49.699814, 187.39163, 339.66272, 265.0603, 366.84677, 292.89154, 302.1229, 273.4744, 43.227432, 221.69528, 23.810268)
+uv = PackedVector2Array(168.62172, 49.699814, 187.39163, 339.66272, 265.0603, 366.84677, 292.89154, 302.1229, 273.4744, 43.227432, 221.69528, 23.810268)
+bones = ["Cadera", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/PiernaD", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/PiernaI", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/Pecho", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/Pecho/BrazoD", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/Pecho/BrazoI", PackedFloat32Array(1, 1, 1, 1, 1, 1), "Cadera/Pecho/Cuello", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/Pecho/Cuello/Mandibula", PackedFloat32Array(0, 0, 0, 0, 0, 0)]
+
+[node name="PiernaIzquierda" type="Polygon2D" parent="Polygons" unique_id=1116763044]
+position = Vector2(-130, -169)
+texture = ExtResource("1_v7yv7")
+skeleton = NodePath("../../Skeleton2D2")
+polygon = PackedVector2Array(310.30267, 380.81516, 345.1888, 404.30994, 407.84152, 689.8069, 235.54659, 689.0949, 265.44904, 407.15778)
+uv = PackedVector2Array(310.30267, 380.81516, 345.1888, 404.30994, 407.84152, 689.8069, 235.54659, 689.0949, 265.44904, 407.15778)
+bones = ["Cadera", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/PiernaD", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/PiernaI", PackedFloat32Array(1, 1, 1, 1, 1), "Cadera/Pecho", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/Pecho/BrazoD", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/Pecho/BrazoI", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/Pecho/Cuello", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/Pecho/Cuello/Mandibula", PackedFloat32Array(0, 0, 0, 0, 0)]
+
+[node name="Cuerpo" type="Polygon2D" parent="Polygons" unique_id=1306962296]
+position = Vector2(-277, -57)
+texture = ExtResource("1_v7yv7")
+skeleton = NodePath("../../Skeleton2D2")
+polygon = PackedVector2Array(484.41336, 331.5847, 527.89185, 180.41339, 471.03537, 20.546387, 391.4363, 20.546387, 335.91763, 116.19903, 347.28894, 312.1866, 410.8344, 352.3206)
+uv = PackedVector2Array(484.41336, 331.5847, 527.89185, 180.41339, 471.03537, 20.546387, 391.4363, 20.546387, 335.91763, 116.19903, 347.28894, 312.1866, 410.8344, 352.3206)
+bones = ["Cadera", PackedFloat32Array(1, 0, 0, 0, 0, 1, 1), "Cadera/PiernaD", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0), "Cadera/PiernaI", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0), "Cadera/Pecho", PackedFloat32Array(0, 1, 1, 1, 1, 0, 0), "Cadera/Pecho/BrazoD", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0), "Cadera/Pecho/BrazoI", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0), "Cadera/Pecho/Cuello", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0), "Cadera/Pecho/Cuello/Mandibula", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0)]
+
+[node name="PiernaDerecha" type="Polygon2D" parent="Polygons" unique_id=1883258341]
+position = Vector2(13, -158)
+texture = ExtResource("1_v7yv7")
+skeleton = NodePath("../../Skeleton2D2")
+polygon = PackedVector2Array(185.76178, 688.495, 5.635269, 684.9352, 43.369293, 409.4057, 94.630585, 380.21527, 128.09283, 409.4057)
+uv = PackedVector2Array(185.76178, 688.495, 5.635269, 684.9352, 43.369293, 409.4057, 94.630585, 380.21527, 128.09283, 409.4057)
+bones = ["Cadera", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/PiernaD", PackedFloat32Array(1, 1, 1, 1, 1), "Cadera/PiernaI", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/Pecho", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/Pecho/BrazoD", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/Pecho/BrazoI", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/Pecho/Cuello", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/Pecho/Cuello/Mandibula", PackedFloat32Array(0, 0, 0, 0, 0)]
+
+[node name="Cabeza" type="Polygon2D" parent="Polygons" unique_id=261409217]
+position = Vector2(-497, -572.9879)
+texture = ExtResource("1_v7yv7")
+skeleton = NodePath("../../Skeleton2D2")
+polygon = PackedVector2Array(498.10248, 532.79724, 805.5992, 529.32666, 818.09344, 329.41904, 736.88654, 250.98788, 559.885, 253.07025, 479.3667, 375.236)
+uv = PackedVector2Array(498.10248, 532.79724, 805.5992, 529.32666, 818.09344, 329.41904, 736.88654, 250.98788, 559.885, 253.07025, 479.3667, 375.236)
+bones = ["Cadera", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/PiernaD", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/PiernaI", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/Pecho", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/Pecho/BrazoD", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/Pecho/BrazoI", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/Pecho/Cuello", PackedFloat32Array(1, 1, 1, 1, 1, 1), "Cadera/Pecho/Cuello/Mandibula", PackedFloat32Array(0, 0, 0, 0, 0, 0)]
+
+[node name="Mandibula" type="Polygon2D" parent="Polygons" unique_id=2085780647]
+position = Vector2(-493, -666.9879)
+texture = ExtResource("1_v7yv7")
+skeleton = NodePath("../../Skeleton2D2")
+polygon = PackedVector2Array(478.63037, 572.9389, 826.2657, 558.5975, 798.7302, 669.8867, 664.4948, 695.7012, 505.01855, 677.34424)
+uv = PackedVector2Array(478.63037, 572.9389, 826.2657, 558.5975, 798.7302, 669.8867, 664.4948, 695.7012, 505.01855, 677.34424)
+bones = ["Cadera", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/PiernaD", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/PiernaI", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/Pecho", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/Pecho/BrazoD", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/Pecho/BrazoI", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/Pecho/Cuello", PackedFloat32Array(0, 0, 0, 0, 0), "Cadera/Pecho/Cuello/Mandibula", PackedFloat32Array(1, 1, 1, 1, 1)]
+
+[node name="BrazoDerecho" type="Polygon2D" parent="Polygons" unique_id=1271866977]
+texture = ExtResource("1_v7yv7")
+skeleton = NodePath("../../Skeleton2D2")
+polygon = PackedVector2Array(103.53883, 367.6059, 139.52354, 313.6288, 132.71378, 42.77195, 81.65439, 9.218641, 21.702087, 31.031765, 26.232758, 352.7094)
+uv = PackedVector2Array(103.53883, 367.6059, 139.52354, 313.6288, 132.71378, 42.77195, 81.65439, 9.218641, 21.702087, 31.031765, 26.232758, 352.7094)
+bones = ["Cadera", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/PiernaD", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/PiernaI", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/Pecho", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/Pecho/BrazoD", PackedFloat32Array(1, 1, 1, 1, 1, 1), "Cadera/Pecho/BrazoI", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/Pecho/Cuello", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Cadera/Pecho/Cuello/Mandibula", PackedFloat32Array(0, 0, 0, 0, 0, 0)]
+
+[node name="Skeleton2D" type="Skeleton2D" parent="." unique_id=2008253049]
+visible = false
+
+[node name="Cadera" type="Bone2D" parent="Skeleton2D" unique_id=314548735]
+position = Vector2(158, 248)
+rotation = -0.10891882
+scale = Vector2(0.9999997, 0.9999997)
+rest = Transform2D(0.9940739, -0.108703546, 0.108703546, 0.9940739, 158, 248)
+
+[node name="PiernaD" type="Bone2D" parent="Skeleton2D/Cadera" unique_id=1195390305]
+position = Vector2(-58.743355, 3.6359265)
+rotation = 0.00018823752
+rest = Transform2D(1, 0.00018823752, -0.00018823752, 1, -58.743355, 3.6359265)
+
+[node name="Rodilla" type="Bone2D" parent="Skeleton2D/Cadera/PiernaD" unique_id=1392321861]
+position = Vector2(-17.267727, 93.67939)
+rotation = -0.004918283
+rest = Transform2D(0.9999879, -0.004918263, 0.004918263, 0.9999879, -17.267727, 93.67939)
+
+[node name="Pie" type="Bone2D" parent="Skeleton2D/Cadera/PiernaD/Rodilla" unique_id=1678090372]
+position = Vector2(-24.505436, 144.15094)
+rest = Transform2D(1, 0, 0, 1, -24.505436, 144.15094)
+auto_calculate_length_and_angle = false
+length = 70.0
+bone_angle = 7.9999976
+
+[node name="PiernaI" type="Bone2D" parent="Skeleton2D/Cadera" unique_id=653554336]
+position = Vector2(27.725382, 4.0377784)
+rotation = 0.00018823752
+rest = Transform2D(1, 0.00018823752, -0.00018823752, 1, 27.725382, 4.0377784)
+
+[node name="Rodilla" type="Bone2D" parent="Skeleton2D/Cadera/PiernaI" unique_id=442194754]
+position = Vector2(-25.220497, 92.81127)
+rotation = -0.004918283
+rest = Transform2D(0.9999879, -0.004918263, 0.004918263, 0.9999879, -25.220497, 92.81127)
+
+[node name="Pie" type="Bone2D" parent="Skeleton2D/Cadera/PiernaI/Rodilla" unique_id=1190445173]
+position = Vector2(-19.651089, 145.71152)
+rest = Transform2D(1, 0, 0, 1, -19.651089, 145.71152)
+auto_calculate_length_and_angle = false
+length = 70.0
+bone_angle = 7.9999976
+
+[node name="Pecho" type="Bone2D" parent="Skeleton2D/Cadera" unique_id=665478590]
+position = Vector2(3.695919, -33.79853)
+rotation = 0.0008185133
+scale = Vector2(1.0000001, 1.0000001)
+rest = Transform2D(0.99999976, 0.0008185133, -0.0008185133, 0.99999976, 3.695919, -33.79853)
+
+[node name="HombroD" type="Bone2D" parent="Skeleton2D/Cadera/Pecho" unique_id=1729653049]
+position = Vector2(-79.63315, -131.3584)
+rotation = -0.00044646315
+scale = Vector2(1.0000002, 1.0000002)
+rest = Transform2D(1.0000001, -0.00044646324, 0.00044646324, 1.0000001, -79.63315, -131.3584)
+
+[node name="Codo" type="Bone2D" parent="Skeleton2D/Cadera/Pecho/HombroD" unique_id=2144023836]
+position = Vector2(-7.430884, 98.76629)
+rest = Transform2D(1, 0, 0, 1, -7.430884, 98.76629)
+
+[node name="Mano" type="Bone2D" parent="Skeleton2D/Cadera/Pecho/HombroD/Codo" unique_id=960414128]
+position = Vector2(-9.1139965, 114.67753)
+rotation = 0.10138299
+scale = Vector2(0.9999998, 0.9999998)
+rest = Transform2D(0.9948651, 0.1012094, -0.1012094, 0.9948651, -9.1139965, 114.67753)
+auto_calculate_length_and_angle = false
+length = 40.0
+bone_angle = 69.99999
+
+[node name="HombroI" type="Bone2D" parent="Skeleton2D/Cadera/Pecho" unique_id=1853681112]
+position = Vector2(72.05712, -107.855354)
+rotation = -0.00023352311
+scale = Vector2(1.0000002, 1.0000002)
+rest = Transform2D(1.0000001, -0.00044646324, 0.00044646324, 1.0000001, 72.05712, -107.855354)
+
+[node name="Codo" type="Bone2D" parent="Skeleton2D/Cadera/Pecho/HombroI" unique_id=432596288]
+position = Vector2(-10.50837, 96.429115)
+rest = Transform2D(1, 0, 0, 1, -10.50837, 96.429115)
+
+[node name="Mano" type="Bone2D" parent="Skeleton2D/Cadera/Pecho/HombroI/Codo" unique_id=1043841548]
+position = Vector2(2.3768973, 79.72674)
+rest = Transform2D(1, 0, 0, 1, 2.3768973, 79.72674)
+auto_calculate_length_and_angle = false
+length = 40.0
+bone_angle = 83.457985
+
+[node name="Cuello" type="Bone2D" parent="Skeleton2D/Cadera/Pecho" unique_id=781237402]
+position = Vector2(20.752066, -205.96333)
+rotation = -0.00044646315
+scale = Vector2(1.0000001, 1.0000001)
+rest = Transform2D(1, -0.00044646318, 0.00044646318, 1, 20.752066, -205.96333)
+
+[node name="Mandibula" type="Bone2D" parent="Skeleton2D/Cadera/Pecho/Cuello" unique_id=137322880]
+position = Vector2(-123.26949, -81.83588)
+rotation = -0.044072885
+scale = Vector2(0.9999996, 0.9999996)
+rest = Transform2D(0.9990287, -0.044058606, 0.044058606, 0.9990287, -123.26949, -81.83588)
+auto_calculate_length_and_angle = false
+length = 200.0
+bone_angle = 9.999997
+
+[node name="Skeleton2D2" type="Skeleton2D" parent="." unique_id=571356424]
+
+[node name="Cadera" type="Bone2D" parent="Skeleton2D2" unique_id=695979433]
+position = Vector2(158, 248)
+rotation = -0.10891884
+scale = Vector2(0.9999997, 0.9999997)
+rest = Transform2D(0.9940739, -0.10870357, 0.10870357, 0.9940739, 158, 248)
+
+[node name="PiernaD" type="Bone2D" parent="Skeleton2D2/Cadera" unique_id=2096817050]
+position = Vector2(-58.743355, 3.6359265)
+rotation = 0.00018823752
+rest = Transform2D(1, 0.00018823752, -0.00018823752, 1, -58.743355, 3.6359265)
+auto_calculate_length_and_angle = false
+length = 95.25758
+bone_angle = 100.44397
+
+[node name="PiernaI" type="Bone2D" parent="Skeleton2D2/Cadera" unique_id=393405339]
+position = Vector2(27.725382, 4.0377784)
+rotation = 0.00018823752
+rest = Transform2D(1, 0.00018823752, -0.00018823752, 1, 27.725382, 4.0377784)
+auto_calculate_length_and_angle = false
+length = 100.0
+bone_angle = 104.99999
+
+[node name="Pecho" type="Bone2D" parent="Skeleton2D2/Cadera" unique_id=1887368772]
+position = Vector2(3.695919, -33.79853)
+rotation = 0.0008185133
+scale = Vector2(1.0000001, 1.0000001)
+rest = Transform2D(0.99999976, 0.0008185133, -0.0008185133, 0.99999976, 3.695919, -33.79853)
+
+[node name="BrazoD" type="Bone2D" parent="Skeleton2D2/Cadera/Pecho" unique_id=2008262537]
+position = Vector2(-79.63315, -131.3584)
+rotation = -0.11729847
+scale = Vector2(1.0000002, 1.0000002)
+rest = Transform2D(0.99312866, -0.1170297, 0.1170297, 0.99312866, -79.63315, -131.3584)
+auto_calculate_length_and_angle = false
+length = 100.0
+bone_angle = 99.99999
+
+[node name="BrazoI" type="Bone2D" parent="Skeleton2D2/Cadera/Pecho" unique_id=27482100]
+position = Vector2(72.05712, -107.855354)
+rotation = -0.00023352311
+scale = Vector2(1.0000002, 1.0000002)
+rest = Transform2D(1.0000002, -0.00023352317, 0.00023352317, 1.0000002, 72.05712, -107.855354)
+auto_calculate_length_and_angle = false
+length = 100.0
+bone_angle = 95.0
+
+[node name="Cuello" type="Bone2D" parent="Skeleton2D2/Cadera/Pecho" unique_id=1821400316]
+position = Vector2(20.752066, -205.96333)
+rotation = -0.00044646315
+scale = Vector2(1.0000001, 1.0000001)
+rest = Transform2D(1, -0.00044646318, 0.00044646318, 1, 20.752066, -205.96333)
+
+[node name="Mandibula" type="Bone2D" parent="Skeleton2D2/Cadera/Pecho/Cuello" unique_id=2071126580]
+position = Vector2(-123.26949, -81.83588)
+rotation = -0.044072885
+scale = Vector2(0.9999993, 0.9999993)
+rest = Transform2D(0.99902844, -0.044058595, 0.044058595, 0.99902844, -123.26949, -81.83588)
+auto_calculate_length_and_angle = false
+length = 200.0
+bone_angle = 9.999996
